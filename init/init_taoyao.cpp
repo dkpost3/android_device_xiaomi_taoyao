@@ -82,7 +82,7 @@ void vendor_load_properties() {
     string region = GetProperty("ro.boot.hwc", "");
 
     if (region == "GL") { // Global
-        set_device_props("2203129G", "taoyao", "Xiaomi 12 Lite 5G", "taoyao");
+        set_device_props("2203129G", "taoyao", "Xiaomi 12 Lite", "taoyao");
     }
 
     // Set hardware revision
